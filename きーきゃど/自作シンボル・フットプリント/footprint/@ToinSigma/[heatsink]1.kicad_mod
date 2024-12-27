@@ -1,0 +1,48 @@
+(footprint "heatsink1-line" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 92260441-67a8-45b5-82ce-e63b26b4e77d)
+  )
+  (fp_text value "heatsink1-line" (at 0 1 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c3a8d96e-c366-4410-ad46-04fb0f2fda9e)
+  )
+  (fp_line (start -18.5 0.5) (end -18.5 -0.5)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 290ae39c-c5a3-4ce9-b9ad-847e77d4025e))
+  (fp_line (start -15.5 -3.5) (end 15.5 -3.5)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 149cbf29-bf4a-4b6b-874a-5fd1e440d93f))
+  (fp_line (start 15.5 3.5) (end -15.5 3.5)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 233a7c98-6748-471f-a240-c07217fabdf5))
+  (fp_line (start 18.5 -0.5) (end 18.5 0.5)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 9f4eedb5-ba1a-42f0-b555-24d96943b1e7))
+  (fp_arc (start -18.5 -0.5) (mid -17.62132 -2.62132) (end -15.5 -3.5)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp bfd43607-338e-4180-88b7-476c6e4afaa9))
+  (fp_arc (start -15.5 3.5) (mid -17.62132 2.62132) (end -18.5 0.5)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 2f947c49-214a-4f2d-be11-04042ec7822c))
+  (fp_arc (start 15.5 -3.5) (mid 17.621321 -2.621321) (end 18.5 -0.5)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 253d81b3-527a-4180-bcf4-2454eeff1b73))
+  (fp_arc (start 18.5 0.5) (mid 17.621321 2.621321) (end 15.5 3.5)
+    (stroke (width 0.5) (type solid)) (layer "F.SilkS") (tstamp 4b5a1c2c-7bff-43cb-9822-a85f8fd2c2bb))
+  (fp_circle (center -15.5 0) (end -13.9 0)
+    (stroke (width 0.5) (type solid)) (fill none) (layer "F.SilkS") (tstamp 5401f95c-6ef1-4330-a975-abb09f6440ff))
+  (fp_circle (center 15.5 0) (end 17.1 0)
+    (stroke (width 0.5) (type solid)) (fill none) (layer "F.SilkS") (tstamp 93f0b92c-10a6-400c-ac8d-e6cd8585d380))
+  (pad "1" smd rect (at 0 0) (size 25 6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45) (tstamp 444202e7-5969-4527-b33d-a51371a526b8))
+  (group "" (id 184c3315-1dc5-478c-b440-c41eca423e06)
+    (members
+      149cbf29-bf4a-4b6b-874a-5fd1e440d93f
+      233a7c98-6748-471f-a240-c07217fabdf5
+      253d81b3-527a-4180-bcf4-2454eeff1b73
+      290ae39c-c5a3-4ce9-b9ad-847e77d4025e
+      2f947c49-214a-4f2d-be11-04042ec7822c
+      4b5a1c2c-7bff-43cb-9822-a85f8fd2c2bb
+      5401f95c-6ef1-4330-a975-abb09f6440ff
+      93f0b92c-10a6-400c-ac8d-e6cd8585d380
+      9f4eedb5-ba1a-42f0-b555-24d96943b1e7
+      bfd43607-338e-4180-88b7-476c6e4afaa9
+    )
+  )
+)
